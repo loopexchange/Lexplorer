@@ -13,7 +13,7 @@ namespace xUnitTests.NFTMetaDataTests
 
         public NFTMetaDataTestsFixture()
         {
-            NMS = new NftMetadataService("https://loopring.mypinata.cloud/ipfs/");
+            NMS = new NftMetadataService("https://ipfs.loopring.io/ipfs/");
             EthS = new EthereumService();
         }
 
